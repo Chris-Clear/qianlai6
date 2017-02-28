@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>钱来了 触屏版</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	    <meta content="yes" name="apple-mobile-web-app-capable">
+	    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+	    <meta content="telephone=no" name="format-detection">
+	    <meta name="Keywords" content="钱来了">
+	    <meta name="Description" content="钱来了">
+	    <link rel="stylesheet" href="style/conmon.css">
+	    <link rel="stylesheet" type="text/css" href="style/personal.css"/>
+	    <link rel="stylesheet" type="text/css" href="style/DataS.css"/>
+	    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	    <script type="text/javascript" src="js/style.js"></script>
+	</head>
+	<body style="margin: 0 auto;">
+		<div id="container">
+			<header>
+			    <div class="header" style="left: 0px;">
+			        <div class="container">
+			            <a href=""><img src="images/fh-sjd.png" alt="" class="menu"></a>
+			            <span style="line-height: 52px;color: #FFFFFF;font-size: 16px;font-weight: 600;">数据提交</span>
+			            <a href=""><img class="menu-r"></a>
+			        </div>
+			    </div>
+			    <div id="header"></div>
+			</header>
+			<section>
+				<div id="container_info">
+					<div class="info_content">
+						<form class="form" id="userform" method="POST" action="/excute/taste-from" novalidate="novalidate">
+						  <input name="projectId" type="hidden" value="">																					<div>
+							<span class="red lf first">*</span> <span class="lf first" style="font-size: .8rem;">任务截图1:</span>
+							<div class="task_img">
+								<img id="p-img1" src="images/img1.jpg" width="100%">
+							</div>
+							<input type="file" name="imageUpload" id="imageUpload1" class="first1 mglf" style="display: none;" accept=".jpg,.jpeg,.png,.gif.JPG" onchange="handleFiles(this,'p-img1')">
+							<input type="button" value="选择图片" class="upload" onclick="upload_img(1)">
+							<p>
+						    	<input name="data1" type="hidden" value="" id="data1" deng="图片上传">
+								<input type="button" value="上传" class="upload" onclick="projectMainImgUpload(1)">
+							</p>
+							<span class="red mglf">注:&nbsp;只支持jpg,png,gif,bmp格式的图片</span>
+							<span class="red mglf" style="margin-top: 5px;display: none;" id="img-ok1">上传成功！</span>
+						</div>
+																																							<div>
+							<span class="red lf">*</span> <span class="lf">姓名:</span> 
+							<input type="text" name="data2" class="ipt" id="data2" deng="姓名">
+						</div>
+																																							<div>
+							<span class="red lf">*</span> <span class="lf">手机号:</span> 
+							<input type="text" name="data3" class="ipt" id="data3" deng="手机号">
+						</div>
+																																							<div>
+							<span class="red lf">*</span> <span class="lf">资金账号:</span> 
+							<input type="text" name="data4" class="ipt" id="data4" deng="资金账号">
+						</div>
+																												</form>
+					</div>
+					<p class="confirm">
+						<a href="#" class="info_cancle rt" aria-hidden="true" data-dismiss="modal">取消</a><a href="#" class="info_do rt" onclick="submit_ok()">确认</a>
+					</p>
+				</div>
+				<script type="text/javascript">
+					//上传项目图片
+					function projectMainImgUpload(evr) {
+						var filename = $("#imageUpload"+evr).val().split(".");
+						if(filename==""){
+							alert("请先选择图片");
+							return;
+						}else if(filename[filename.length-1] != "JPG" && filename[filename.length-1] != "PNG" && filename[filename.length-1] != "jpg" && filename[filename.length-1] != "bmp" && filename[filename.length-1] != "png" && filename[filename.length-1] != "gif") {
+							alert("仅支持以下图片类型:jpg|gif|png|bmp");
+							return;
+						}
+						var id="imageUpload"+evr;
+						$.ajaxFileUpload({
+							url:sys.contextPath+"/upload-img/upload",
+							secureuri : false,
+							fileElementId:[id],
+							dataType:"json",
+							success:function(data,status) {
+								if(data.success == true){
+									var dates = "data"+evr;
+									$("input[name="+dates+"]").val(data.msg);
+									$("#img-ok"+evr).show();
+								}else{
+									alert("上传主图失败");
+								}
+							},
+							error:function() {
+								alert("上传文件未知异常");
+							}
+						}); 
+					}
+					function upload_img(eve){
+						$("#imageUpload"+eve).click();
+					}
+					function submit_ok(){
+						if($("#data1")){
+						   var img = $("#data1").val()
+						   if(img == ""){
+						   		alert($("#data1").attr("deng")+"不能为空！");
+						   		return;
+						   }else{
+						   	 $("#data1").val($.trim(img));
+						   }
+						}
+						if($("#data2")){
+						   var img = $("#data2").val()
+						   if(img == ""){
+						   		alert($("#data2").attr("deng")+"不能为空！");
+						   		return;
+						   }else{
+						   	 $("#data2").val($.trim(img));
+						   }
+						}
+						if($("#data3")){
+						   var img = $("#data3").val()
+						   if(img == ""){
+						   		alert($("#data3").attr("deng")+"不能为空！");
+						   		return;
+						   }else{
+						   	 $("#data3").val($.trim(img));
+						   }
+						}
+						if($("#data4")){
+						   var img = $("#data4").val()
+						   if(img == ""){
+						   		alert($("#data4").attr("deng")+"不能为空！");
+						   		return;
+						   }else{
+						   	 $("#data4").val($.trim(img));
+						   }
+						}
+						if($("#data5")){
+						   var img = $("#data5").val()
+						   if(img == ""){
+						   		alert($("#data5").attr("deng")+"不能为空！");
+						   		return;
+						   }else{
+						   	 $("#data5").val($.trim(img));
+						   }
+						}
+						if($("#data6")){
+						   var img = $("#data6").val()
+						   if(img == ""){
+						   		alert($("#data6").attr("deng")+"不能为空！");
+						   		return;
+						   }else{
+						   	 $("#data6").val($.trim(img));
+						   }
+						}
+						$("#userform").submit();
+					}
+					function upload_sub(){
+						$("#xinxi").html("请先领取任务！");
+						$(".theme-popover4").css("display","block");
+					}
+					$(".themeclose").click(function(){
+							$(".theme-popover4").css("display","none");
+					})
+					</script>
+			</section>
+			<section>
+			    <div class="fhdb" id="fhdb" style="display: none;"><img src="images/hddb-sjd.png"></div>
+			</section>
+			<footer>
+			    <div id="footer-b"></div>
+			    <div class="footer" style="left: 0px;">
+			        <a href="index.html">
+			            <img src="images/sy-sjd.png" alt=""><br>
+			            首页
+			        </a>
+			        <a href="MissionHall.html" >
+			            <img src="images/dt-sjd.png" alt=""><br>
+			            任务
+			        </a>
+			        <a href="Income.html">
+			            <img src="images/syy.png" alt=""><br>
+			            收益
+			        </a>
+			        <a href="PersonalCenter.html">
+			            <img src="images/gr-sjd.png" alt=""><br>
+			            个人
+			        </a>
+			    </div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>钱来了 触屏版</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	    <meta content="yes" name="apple-mobile-web-app-capable">
+	    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+	    <meta content="telephone=no" name="format-detection">
+	    <meta name="Keywords" content="钱来了">
+	    <meta name="Description" content="钱来了">
+	    <link rel="stylesheet" href="style/conmon.css">
+	    <link rel="stylesheet" type="text/css" href="style/income.css"/>
+	    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	    <script type="text/javascript" src="js/style.js"></script>
+	</head>
+	<body style="margin: 0 auto;">
+		<div id="container">
+			<section>
+				<div class="income-b">
+					<div class="b1 clearFix">
+						<div class="b1a fl">
+							<span>今日收益（金币）</span>
+							<span style="font-size: .8rem;" id="nowtime">2016-11-01</span>
+						</div>
+						<div class="b1b fl">
+							<a href="AccountDetail.html">账户明细 ></a>
+						</div>
+					</div>
+					<div class="b2">
+						<p><span>3.6</span>万</p>
+					</div>
+					<div class="b3 clearFix">
+						<div class="b3a fl">
+							<span>昨日收益（金币）</span>
+							<span>12.5万</span>
+						</div>
+						<div class="b3b fl">
+							<span>总收益（金币）</span>
+							<span>250万</span>
+						</div>
+					</div>
+				</div>
+				<div class="In-D">
+					<div class="d1 clearFix">
+						<div class="d1a fl">
+							<span>可提现金额（元）</span>
+							<span class="AC">120.50</span>
+						</div>
+						<div class="d1b fl">
+							<a href="WithdrawCash.html">提现</a>	
+						</div>
+					</div>
+					<div class="huise"></div>
+					<div style="border-bottom: 1px solid #e4e4e4;" class="d2 clearFix">
+						<div class="d2a fl">
+							<span>邀请好友收益（金币） </span>
+							<span class="AC">120.50万</span>
+						</div>
+						<div class="d2a fl">
+							<span>邀请奖励比例（%）</span>
+							<span class="AC">12%</span>
+						</div>
+					</div>
+					<div class="d2 clearFix">
+						<div class="d2a fl">
+							<span>邀请好友收益（金币） </span>
+							<span class="AC">120.50万</span>
+						</div>
+						<div class="d2a fl">
+							<span>邀请奖励比例（%）</span>
+							<span class="AC">12%</span>
+						</div>
+					</div>
+					<div class="huise"></div>
+					<a  href="InvitationDetail.html" style="border-bottom: 1px solid #e4e4e4;" class="d3 clearFix">
+						<span class="fl AC">查看我的邀请</span>
+						<span class="fr AC"><i class="JT">></i></span>
+					</a>
+					<a  href="MyTasks.html" class="d3 clearFix">
+						<span  class="fl AC">查看我的任务</span>
+						<span class="fr AC"><i class="JT">></i></span>
+					</a>
+					<div class="huise"></div>
+				</div>
+			</section>
+			<section>
+			    <div class="fhdb" id="fhdb" style="display: none;"><img src="images/hddb-sjd.png"></div>
+			</section>
+			<footer>
+			    <div id="footer-b"></div>
+			    <div class="footer" style="left: 0px;">
+			        <a href="index.html">
+			            <img src="images/sy-sjd.png" alt=""><br>
+			            首页
+			        </a>
+			        <a href="MissionHall.html" >
+			            <img src="images/dt-sjd.png" alt=""><br>
+			            任务
+			        </a>
+			        <a href="#"  id="footer">
+			            <img src="images/dsyy-sjd.png" alt=""><br>
+			            收益
+			        </a>
+			        <a href="PersonalCenter.html">
+			            <img src="images/gr-sjd.png" alt=""><br>
+			            个人
+			        </a>
+			    </div>
+			</footer>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var nowtime =document.getElementById('nowtime');
+		var d = new Date();
+		var Y=d.getFullYear();
+		var M=d.getMonth()+1;
+		nowtime.innerHTML =Y+'-'+M+'-'+d.getDate();
+	</script>
+	</script>
+</html>

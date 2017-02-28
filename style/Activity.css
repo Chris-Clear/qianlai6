@@ -1,0 +1,134 @@
+@charset "utf-8";
+.Tlist{
+	width: 100%;
+	height: 25px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	border-bottom: 1px solid #E3E3E3;
+}
+.Tlist ul li{
+	width: 17%;
+	float: left;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	padding: 0 1%;
+}
+.Tlist ul li a{
+	color: #c1c1c1;
+}
+.AC{
+	color: #3aa8fd !important;
+}
+.theme-popover-mask {
+	z-index: 9998;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+.AClist{
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.AClist li{
+	margin: 2%;
+	width: 96%;
+	border: 1px solid #EEEEEE;
+	border-radius: 5px;
+}
+.AClist li a{
+	padding: 2%;
+	display: block;
+}
+.AClist li a img{
+	width: 100%;
+	display: block;
+}
+.shadow{
+   -webkit-box-shadow: #C1C1C1 0px 1px 3px;
+   -moz-box-shadow: #C1C1C1 0px 1px 3px;
+   box-shadow: #EEEEEE 0px 3px 5px;
+}
+.ACinfo{
+	width: 100%;
+	height: auto;
+}
+.ACinfo span{
+	display: block;
+	margin: 1%;
+}
+
+
+.content{
+	width: 100%;
+	height: auto;
+	background-color: #FAFAFA;
+	padding: 2% 2%;
+}
+.IFlist{
+	width: 96%;
+	height: auto;
+	background-color: #FFFFFF;
+	border: 1px solid #F1F1F1;
+	min-height: 220px;
+	border-radius: 3px;
+	box-shadow: #EEEEEE 0px 3px 5px; ;
+}
+.Inform{
+	margin: 3%;
+	border-bottom: 1px solid #e3e2e2;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.Inform a{
+	width: 100%;
+	display: block;
+	height: 40px;
+	line-height: 32px;	
+}
+.Inform a img{
+	width: 4%;
+	display: inline-block;
+}
+.Page{
+	width: 100%;
+	margin: 2%;
+}
+.pager{
+	padding: 0 10%;
+}
+.pager li a{
+	float: left;
+    background: #FFF;
+    border-radius: 5px !important;
+    padding: 0.4em 0.4em;
+    font-size: 1.1em;
+    border: 1px solid #e3e3e3;
+    display: block;
+    margin:0 10%;
+}
+.form-select{
+	position: relative;
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+    margin-top: -0.2em;
+    display: block;
+    width: 58%;
+    float: left;
+}
+.form-select select {
+    padding: 0.4em 5em;
+    float: left;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    margin-top: 0.2em;
+}
+

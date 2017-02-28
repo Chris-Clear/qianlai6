@@ -1,0 +1,1077 @@
+{
+  "HD-rule.html": {
+    "href": "HD-rule.html",
+    "resources": [
+      "style/conmon.css",
+      "style/News.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/zphdgzbj-sjd.png",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "Award-Myaward.html": {
+    "href": "Award-Myaward.html",
+    "resources": [
+      "style/conmon.css",
+      "style/MissionHall.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "Award-Rule.html": {
+    "href": "Award-Rule.html",
+    "resources": [
+      "style/conmon.css",
+      "style/Activity.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/zphdgzbj-sjd.png",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "ContactUs.html": {
+    "href": "ContactUs.html",
+    "resources": [
+      "style/conmon.css",
+      "style/News.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "NewsD.html": {
+    "href": "NewsD.html",
+    "resources": [
+      "style/conmon.css",
+      "style/News.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/tttz-xx.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "ContactUs.html"
+    ],
+    "priority": 0
+  },
+  "News.html": {
+    "href": "News.html",
+    "resources": [
+      "style/conmon.css",
+      "style/News.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/tttz-xx.png",
+      "images/hdtz-xx.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "NewsD.html"
+    ],
+    "priority": 0
+  },
+  "Award.html": {
+    "href": "Award.html",
+    "resources": [
+      "js/awardRotate.js",
+      "js/activity.js",
+      "style/conmon.css",
+      "style/demo.css",
+      "style/hongbao.css",
+      "js/jquery-1.11.2.min.js",
+      "js/jquery.bxslider.min.js",
+      "js/style.js",
+      "images/zpbj-sjd.png",
+      "images/zpbj-tc-sjd.png",
+      "images/hddb-sjd.png",
+      "images/zp-zx-sjd.png",
+      "images/zp-lp-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png"
+    ],
+    "refer": [
+      "Award-Myaward.html",
+      "Award-Rule.html",
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html"
+    ],
+    "priority": 0
+  },
+  "SignIn.html": {
+    "href": "SignIn.html",
+    "resources": [
+      "js/qiandao.js",
+      "style/conmon.css",
+      "style/SignIn.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/qdbj-sjd.png",
+      "images/hddb-sjd.png",
+      "images/qdtck-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png"
+    ],
+    "refer": [
+      "HD-rule.html",
+      "Award.html",
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html"
+    ],
+    "priority": 0
+  },
+  "ZhiFuBao.html": {
+    "href": "ZhiFuBao.html",
+    "resources": [
+      "style/conmon.css",
+      "style/personal.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sjyzm-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/zc/nc-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "PersonalData.html": {
+    "href": "PersonalData.html",
+    "resources": [
+      "style/conmon.css",
+      "style/personal.css",
+      "style/css.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "image/img1.jpg",
+      "image/img2.jpg",
+      "image/img3.jpg",
+      "image/img4.jpg",
+      "image/img5.jpg",
+      "image/img6.jpg",
+      "image/img7.jpg",
+      "image/img8.jpg",
+      "image/img9.jpg",
+      "image/img10.jpg",
+      "image/img11.jpg",
+      "image/img12.jpg",
+      "image/img13.jpg",
+      "image/img14.jpg",
+      "image/img15.jpg",
+      "image/img16.jpg",
+      "image/img17.jpg",
+      "image/img18.jpg",
+      "image/img19.jpg",
+      "image/img20.jpg",
+      "image/img21.jpg",
+      "image/img22.jpg",
+      "image/img23.jpg",
+      "image/img24.jpg",
+      "image/img25.jpg",
+      "image/img26.jpg",
+      "image/img27.jpg",
+      "image/img28.jpg",
+      "image/img29.jpg",
+      "image/img30.jpg",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/head_03.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "ZhiFuBao.html"
+    ],
+    "priority": 0
+  },
+  "ResetCode.html": {
+    "href": "ResetCode.html",
+    "resources": [
+      "style/conmon.css",
+      "style/personal.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sjyzm-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "WithdrawCash.html": {
+    "href": "WithdrawCash.html",
+    "resources": [
+      "style/conmon.css",
+      "style/personal.css",
+      "style/css.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "ZhiFuBao.html"
+    ],
+    "priority": 0
+  },
+  "AccountDetail.html": {
+    "href": "AccountDetail.html",
+    "resources": [
+      "style/conmon.css",
+      "style/News.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "QuestionD.html": {
+    "href": "QuestionD.html",
+    "resources": [
+      "style/conmon.css",
+      "style/News.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "Question.html": {
+    "href": "Question.html",
+    "resources": [
+      "style/conmon.css",
+      "style/News.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "QuestionD.html"
+    ],
+    "priority": 0
+  },
+  "AboutUs.html": {
+    "href": "AboutUs.html",
+    "resources": [
+      "style/conmon.css",
+      "style/News.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "PersonalCenter.html": {
+    "href": "PersonalCenter.html",
+    "resources": [
+      "style/conmon.css",
+      "style/personal.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/head_03.jpg",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/dgr-sjd.png",
+      "images/grzx/grzl-sjd.png",
+      "images/grzx/czmm-sjd.png",
+      "images/grzx/dhxj-sjd.png",
+      "images/grzx/zdmx-sjd.png",
+      "images/grzx/cjwt-sjd.png",
+      "images/grzx/lxwm-sjd.png",
+      "images/grzx/gywm-sjd.png",
+      "images/grzx/tcdl-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "SignIn.html",
+      "PersonalData.html",
+      "ResetCode.html",
+      "WithdrawCash.html",
+      "AccountDetail.html",
+      "Question.html",
+      "ContactUs.html",
+      "AboutUs.html"
+    ],
+    "priority": 0
+  },
+  "InvitationDetail.html": {
+    "href": "InvitationDetail.html",
+    "resources": [
+      "style/conmon.css",
+      "style/MissionHall.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html"
+    ],
+    "priority": 0
+  },
+  "MyTasks.html": {
+    "href": "MyTasks.html",
+    "resources": [
+      "style/conmon.css",
+      "style/News.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "Income.html": {
+    "href": "Income.html",
+    "resources": [
+      "style/conmon.css",
+      "style/income.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/dsyy-sjd.png",
+      "images/gr-sjd.png"
+    ],
+    "refer": [
+      "InvitationDetail.html",
+      "MyTasks.html",
+      "index.html",
+      "MissionHall.html",
+      "PersonalCenter.html",
+      "AccountDetail.html",
+      "WithdrawCash.html"
+    ],
+    "priority": 0
+  },
+  "DataS.html": {
+    "href": "DataS.html",
+    "resources": [
+      "style/conmon.css",
+      "style/personal.css",
+      "style/DataS.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/img1.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "MissionDetail.html": {
+    "href": "MissionDetail.html",
+    "resources": [
+      "style/conmon.css",
+      "style/MissionHall.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/xaingmu_03.jpg",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html",
+      "DataS.html"
+    ],
+    "priority": 0
+  },
+  "MissionHall.html": {
+    "href": "MissionHall.html",
+    "resources": [
+      "style/conmon.css",
+      "style/MissionHall.css",
+      "style/pullToRefresh.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "js/iscroll.js",
+      "js/pullToRefresh.js",
+      "images/hddb-sjd.png",
+      "images/dt-sjd.png",
+      "images/ddt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png",
+      "images/fx-sjd.png",
+      "images/xaingmu_03.jpg",
+      "images/gd-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html",
+      "MissionDetail.html"
+    ],
+    "priority": 0
+  },
+  "Register.html": {
+    "href": "Register.html",
+    "resources": [
+      "style/conmon.css",
+      "style/personal.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sjyzm-sjd.png",
+      "images/zcdj-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/zc/nc-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "Login.html"
+    ],
+    "priority": 0
+  },
+  "Login.html": {
+    "href": "Login.html",
+    "resources": [
+      "style/conmon.css",
+      "style/personal.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sjyzm-sjd.png",
+      "images/zcdj-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "Register.html"
+    ],
+    "priority": 0
+  },
+  "PersonalCenter-notSign.html": {
+    "href": "PersonalCenter-notSign.html",
+    "resources": [
+      "style/conmon.css",
+      "style/personal.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/gr-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/dgr-sjd.png",
+      "images/grzx/grzl-sjd.png",
+      "images/grzx/czmm-sjd.png",
+      "images/grzx/dhxj-sjd.png",
+      "images/grzx/zdmx-sjd.png",
+      "images/grzx/cjwt-sjd.png",
+      "images/grzx/lxwm-sjd.png",
+      "images/grzx/gywm-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "SignIn.html",
+      "PersonalData.html",
+      "ResetCode.html",
+      "WithdrawCash.html",
+      "AccountDetail.html",
+      "Question.html",
+      "ContactUs.html",
+      "AboutUs.html",
+      "Login.html",
+      "Register.html"
+    ],
+    "priority": 0
+  },
+  "WelfareDetail.html": {
+    "href": "WelfareDetail.html",
+    "resources": [
+      "style/conmon.css",
+      "style/MissionHall.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png",
+      "images/xaingmu_03.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html"
+    ],
+    "priority": 0
+  },
+  "Welfare.html": {
+    "href": "Welfare.html",
+    "resources": [
+      "js/iscroll.js",
+      "js/pullToRefresh.js",
+      "style/conmon.css",
+      "style/MissionHall.css",
+      "style/pullToRefresh.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png",
+      "images/xaingmu_03.jpg",
+      "images/gd-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html",
+      "WelfareDetail.html"
+    ],
+    "priority": 0
+  },
+  "Rank.html": {
+    "href": "Rank.html",
+    "resources": [
+      "style/conmon.css",
+      "style/MissionHall.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html"
+    ],
+    "priority": 0
+  },
+  "InformD.html": {
+    "href": "InformD.html",
+    "resources": [
+      "style/conmon.css",
+      "style/Activity.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html",
+      "ContactUs.html"
+    ],
+    "priority": 0
+  },
+  "Inform.html": {
+    "href": "Inform.html",
+    "resources": [
+      "style/conmon.css",
+      "style/Activity.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png",
+      "images/TZ.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html",
+      "InformD.html"
+    ],
+    "priority": 0
+  },
+  "Invitation-record.html": {
+    "href": "Invitation-record.html",
+    "resources": [
+      "style/conmon.css",
+      "style/Invitation.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png",
+      "images/fenxiang_03.jpg"
+    ],
+    "refer": [
+      "InvitationDetail.html",
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html",
+      "Invitation-reward.html",
+      "Invitation-ways.html",
+      "Invitation-rule.html",
+      "Invitation-record.html"
+    ],
+    "priority": 0
+  },
+  "Invitation-rule.html": {
+    "href": "Invitation-rule.html",
+    "resources": [
+      "style/conmon.css",
+      "style/Invitation.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/ybhytjjl-bg-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png",
+      "images/fenxiang_03.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html",
+      "Invitation-reward.html",
+      "Invitation-ways.html",
+      "Invitation-rule.html",
+      "Invitation-record.html"
+    ],
+    "priority": 0
+  },
+  "Invitation-ways.html": {
+    "href": "Invitation-ways.html",
+    "resources": [
+      "style/conmon.css",
+      "style/Invitation.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png",
+      "images/fenxiang_03.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html",
+      "Invitation-reward.html",
+      "Invitation-ways.html",
+      "Invitation-rule.html",
+      "Invitation-record.html"
+    ],
+    "priority": 0
+  },
+  "Invitation-reward.html": {
+    "href": "Invitation-reward.html",
+    "resources": [
+      "style/conmon.css",
+      "style/Invitation.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/hytj.png",
+      "images/hytjjjj.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png",
+      "images/fenxiang_03.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html",
+      "Invitation-reward.html",
+      "Invitation-ways.html",
+      "Invitation-rule.html",
+      "Invitation-record.html"
+    ],
+    "priority": 0
+  },
+  "Activity.html": {
+    "href": "Activity.html",
+    "resources": [
+      "style/conmon.css",
+      "style/Activity.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png",
+      "images/ac-bg.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html"
+    ],
+    "priority": 0
+  },
+  "HongB-rule.html": {
+    "href": "HongB-rule.html",
+    "resources": [
+      "style/conmon.css",
+      "style/News.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/94bj-gz-sjd.png",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png"
+    ],
+    "refer": [
+      "index.html",
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter.html"
+    ],
+    "priority": 0
+  },
+  "hongbao.html": {
+    "href": "hongbao.html",
+    "resources": [
+      "style/conmon.css",
+      "style/hongbao.css",
+      "js/jquery-1.11.2.min.js",
+      "js/jquery.bxslider.min.js",
+      "js/style.js",
+      "images/hb-bj-sjd.png",
+      "images/jt.gif",
+      "image/1.png",
+      "images/wxtsk.png",
+      "images/hddb-sjd.png",
+      "images/sy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/fh-sjd.png",
+      "images/xxw-sjd.png",
+      "image/3.png",
+      "image/10.png",
+      "image/30.png",
+      "image/50.png"
+    ],
+    "refer": [
+      "HongB-rule.html",
+      "MissionHall.html",
+      "index.html",
+      "Income.html",
+      "PersonalCenter.html",
+      "News.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "style/conmon.css",
+      "js/jquery-1.11.2.min.js",
+      "js/style.js",
+      "images/fx-sj.png",
+      "images/fx-sjd.png",
+      "js/jquery.bxslider.min.js",
+      "images/hddb-sjd.png",
+      "images/log-sjd.png",
+      "images/dsy-sjd.png",
+      "images/dt-sjd.png",
+      "images/syy.png",
+      "images/gr-sjd.png",
+      "images/bz-sjd.png",
+      "images/xxw-sjd.png",
+      "images/rwdt-sjd.png",
+      "images/qd-sjd.png",
+      "images/ttfl-sjd.png",
+      "images/phb-sjd.png",
+      "images/ptgg-sjd.png",
+      "images/yqhy-sjd.png",
+      "images/yydb.png",
+      "images/hdzq-sjd.png",
+      "images/banner.jpg",
+      "images/xaingmu_03.jpg",
+      "images/gd-sjd.png"
+    ],
+    "refer": [
+      "MissionHall.html",
+      "Income.html",
+      "PersonalCenter-notSign.html",
+      "Question.html",
+      "News.html",
+      "SignIn.html",
+      "Welfare.html",
+      "Rank.html",
+      "Inform.html",
+      "Invitation-reward.html",
+      "Activity.html",
+      "hongbao.html",
+      "WelfareDetail.html",
+      "MissionDetail.html"
+    ],
+    "priority": 0
+  }
+}

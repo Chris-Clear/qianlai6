@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>钱来了 触屏版</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	    <meta content="yes" name="apple-mobile-web-app-capable">
+	    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+	    <meta content="telephone=no" name="format-detection">
+	    <meta name="Keywords" content="钱来了">
+	    <meta name="Description" content="钱来了">
+	    <link rel="stylesheet" href="style/conmon.css">
+	    <link rel="stylesheet" type="text/css" href="style/personal.css"/>
+	    <link rel="stylesheet" type="text/css" href="style/css.css"/>
+	    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	    <script type="text/javascript" src="js/style.js"></script>
+	    <script type="text/javascript">
+			jQuery(document).ready(function($) {
+			
+				$('.theme-login').click(function(){
+			
+					$('.theme-popover-mask').fadeIn(100);
+			
+					$('.theme-popover').slideDown(200);
+			
+				})
+			
+				$('.theme-poptit .close').click(function(){
+			
+					$('.theme-popover-mask').fadeOut(100);
+			
+					$('.theme-popover').slideUp(200);
+			
+				})
+			})
+			</script>
+	</head>
+	<body style="margin: 0 auto;">
+		<div id="container">
+			<header>
+			    <div class="header" style="left: 0px;">
+			        <div class="container">
+			            <a href=""><img src="images/fh-sjd.png" alt="" class="menu"></a>
+			            <span style="line-height: 52px;color: #FFFFFF;font-size: 16px;font-weight: 600;">个人资料</span>
+			            <a href=""><img class="menu-r"></a>
+			        </div>
+			    </div>
+			    <div id="header"></div>
+			</header>
+			<section>
+				<div class="xiangMu">
+				    <div class="content">
+				    	<ul>
+				    		<li class="clearFix">
+				    			<span class="fl">头像</span>
+				    			<a class="fr theme-login" href="javascript:;"><img src="images/head_03.jpg"/></a>
+				    		</li>
+				    		<li>
+				    			<span class="fl">昵称</span>
+				    			<span class="fr">奔跑的小馒头</span>
+				    		</li>
+				    		<li class="clearFix">
+				    			<span class="fl">手机号</span>
+				    			<span class="fr">13567892345</span>
+				    		</li>
+				    		<li class="clearFix" style="padding-right: 0;width: 90%;">
+				    			<span class="fl">支付宝</span>
+				    			<span class="fr"><a class="AC" href="ZhiFuBao.html">13567892345 </a> ></span>
+				    		</li>
+				    		<li class="clearFix">
+				    			<span class="fl">邀请人</span>
+				    			<span class="fr">奔跑的小笼包</span>
+				    		</li>
+				    	</ul>
+				    </div>
+				</div>
+			</section>
+			<section>
+			    <div class="fhdb" id="fhdb" style="display: none;"><img src="images/hddb-sjd.png"></div>
+			</section>
+			<footer>
+			    <div id="footer-b"></div>
+			    <div class="footer" style="left: 0px;">
+			        <a href="index.html">
+			            <img src="images/sy-sjd.png" alt=""><br>
+			            首页
+			        </a>
+			        <a href="MissionHall.html" >
+			            <img src="images/dt-sjd.png" alt=""><br>
+			            任务
+			        </a>
+			        <a href="Income.html">
+			            <img src="images/syy.png" alt=""><br>
+			            收益
+			        </a>
+			        <a href="PersonalCenter.html">
+			            <img src="images/gr-sjd.png" alt=""><br>
+			            个人
+			        </a>
+			    </div>
+			</footer>
+		</div>
+		<div class="theme-popover">
+	    <div class="theme-poptit">
+	        <a href="javascript:;" title="关闭" class="close">×</a>
+	        <h3 style="font-size: 1rem;color: #5C5C5C;">更换头像</h3>
+	    </div>
+	    <form action="" method="post">
+		    <div id="smallimglist">
+				<img src="image/img1.jpg" id="p1" onclick="changeimgs()" style="float: left;"  />
+				<img src="image/img2.jpg" id="p2" onclick="changeimgs()"style="float: left;" />
+				<img src="image/img3.jpg" id="p3" onclick="changeimgs()"style="float: left;" />
+				<img src="image/img4.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img5.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img6.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img7.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img8.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img9.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img10.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img11.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img12.jpg" id="p1" onclick="changeimgs()" style="float: left;"  />
+				<img src="image/img13.jpg" id="p2" onclick="changeimgs()"style="float: left;" />
+				<img src="image/img14.jpg" id="p3" onclick="changeimgs()"style="float: left;" />
+				<img src="image/img15.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img16.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img17.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img18.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img19.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img20.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img21.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img22.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img23.jpg" id="p1" onclick="changeimgs()" style="float: left;"  />
+				<img src="image/img24.jpg" id="p2" onclick="changeimgs()"style="float: left;" />
+				<img src="image/img25.jpg" id="p3" onclick="changeimgs()"style="float: left;" />
+				<img src="image/img26.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img27.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img28.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img29.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+				<img src="image/img30.jpg" id="p4" onclick="changeimgs()" style="float: left;" />
+			</div>
+			<div id="bigimgbox">
+				<img src="image/img1.jpg" id="bigimg"/>
+			</div>
+			<div class="clearFix"></div>
+			<input class="queding btn btn-primary" type="submit" name="submit" value=" 确 定 ">
+	    </form>
+		
+	</div>
+	<div class="theme-popover-mask"></div>
+	</body>
+	<script type="text/javascript">
+	 function changeimgs()
+   {
+	 var bigimg=  document.getElementById("bigimg");
+	  bigimg.src= event.srcElement.src;
+   }
+   $("#smallimglist img").click(function(){
+			_index = $(this).index();
+			$("#smallimglist img")
+			.eq(_index).
+			css({"border":"solid 1px #3079ED","outline":"solid 1px #3079ED"})
+			.siblings()
+			.css({"border":"solid 1px #A1CFC6","outline":"none"});
+		});
+</script>
+</html>

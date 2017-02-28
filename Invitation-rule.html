@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>钱来了 触屏版</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	    <meta content="yes" name="apple-mobile-web-app-capable">
+	    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+	    <meta content="telephone=no" name="format-detection">
+	    <meta name="Keywords" content="钱来了">
+	    <meta name="Description" content="钱来了">
+	    <link rel="stylesheet" href="style/conmon.css">
+	    <link rel="stylesheet" type="text/css" href="style/Invitation.css"/>
+	    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	    <script type="text/javascript" src="js/style.js"></script>
+	</head>
+	<body style="margin: 0 auto;">
+		<div id="container">
+			<header>
+			    <div class="header" style="left: 0px;">
+			        <div class="container">
+			            <a href=""><img src="images/fh-sjd.png" alt="" class="menu"></a>
+			            <span style="line-height: 52px;color: #FFFFFF;font-size: 16px;font-weight: 600;">邀请好友</span>
+			            <a href="News.html"><img src="images/xxw-sjd.png" alt="" class="menu-r"></a>
+			        </div>
+			    </div>
+			    <div id="header"></div>
+			</header>
+			<section>			
+			    <div class="Tlist">
+			    	<ul>
+			    		<li style="width: 20%; color: #bdbcbc;"><a href="Invitation-reward.html">推广奖励</a></li>
+			    		<li style="width: 1%;color: #bdbcbc;">|</li>
+			    		<li style="width: 20%; color: #bdbcbc;"><a href="Invitation-ways.html">推广方法</a></li>
+			    		<li style="width: 1%; color: #bdbcbc;">|</li>		    
+			    		<li style="width: 20%; color: #bdbcbc;"><a href="Invitation-rule.html" class="AC">月榜规则</a></li>
+			    		<li style="width: 1%; color: #bdbcbc;">|</li>		    
+			    		<li style="width: 20%; color: #bdbcbc;"><a href="Invitation-record.html">推广记录</a></li>
+			    	</ul>
+			    </div>
+			    <div class="YaoQ">
+			    	<div class="lianjie">
+			    		<p style="color: #3aa9fd;margin-bottom: 5px;">我的邀请链接：</p>
+			    		<input type="text" name="" id="lianjie" value="http://qianlai6.com" />
+			    		<input type="button" id="" value="复制链接" onClick="copyUrl1()"/>
+			    		<p><a href=""><img src="images/fenxiang_03.jpg"/></a></p>
+			    	</div>
+			    </div>
+			    <div class="JianX"></div>
+			  	<div class="guize">
+			  		<span>推广说明</span>
+			  		<p>推广说明:会员通过专属邀请链接， 邀请好友参加任务，就可获得好友体验
+						所得聚币奖励的最高15%提成； 邀请好友发展下线好友，会成为你的二级
+						好友，以此类推。邀请的越多，奖励越多， 更有邀请月排行榜排名奖励，
+						共计86100元奖励。心动更要行动，动起来吧！ 
+			  		</p>
+			  	</div>
+			  	<div class="JianX"></div>
+			  	<div class="guize">
+			  		<span>提成对象</span>
+			  		<p>提成对象:是指在月推广时间内获取邀请新玩家获得的提成金币总和。
+			  		</p>
+			  	</div>
+			  	<div class="JianX"></div>
+			  	<div class="guize">
+			  		<span>提成规则</span>
+			  		<p>排名规则:从低到高分为500元、2000元、5000元、8000元四个阶段，月
+						排名是叠加奖励哦。注意:是叠加的哦！ 先排名，再按达到的下线提成的级
+						别和下线提成金币奖励要求发放排名奖励。 例如玩家本月 月榜排名第1名
+						，且下线提成金币综合达到8000元，就能拿到12400元； 如玩家排名第4
+						名，且下 线提成金币总和2000元，就能拿650元。 
+			  		</p>
+			  	</div>
+			  	<div class="JianX"></div>
+			  	<div class="guize">
+			  		<span>好友推荐奖励</span>
+			  		<p>
+			  			<img src="images/ybhytjjl-bg-sjd.png"/>
+			  		</p>
+			  	</div>
+			</section>
+			<section>
+			    <div class="fhdb" id="fhdb" style="display: none;"><img src="images/hddb-sjd.png"></div>
+			</section>
+			<footer>
+			    <div id="footer-b"></div>
+			    <div class="footer" style="left: 0px;">
+			        <a href="index.html">
+			            <img src="images/sy-sjd.png" alt=""><br>
+			            首页
+			        </a>
+			        <a href="MissionHall.html" >
+			            <img src="images/dt-sjd.png" alt=""><br>
+			            任务
+			        </a>
+			        <a href="Income.html">
+			            <img src="images/syy.png" alt=""><br>
+			            收益
+			        </a>
+			        <a href="PersonalCenter.html">
+			            <img src="images/gr-sjd.png" alt=""><br>
+			            个人
+			        </a>
+			    </div>
+			</footer>
+		</div>
+	</body>
+	<script type="text/javascript">
+	//		复制粘贴
+		function copyUrl1() 
+			{ 
+			var Url2=document.getElementById("lianjie"); 
+			Url2.select(); // 选择对象 
+			document.execCommand("Copy"); // 执行浏览器复制命令 
+			alert("已复制好，可贴粘。"); 
+			} 
+	</script>
+</html>
+

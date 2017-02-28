@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>钱来了 触屏版</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	    <meta content="yes" name="apple-mobile-web-app-capable">
+	    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+	    <meta content="telephone=no" name="format-detection">
+	    <meta name="Keywords" content="钱来了">
+	    <meta name="Description" content="钱来了">
+	    <link rel="stylesheet" href="style/conmon.css">
+	    <link rel="stylesheet" type="text/css" href="style/personal.css"/>
+	    <link rel="stylesheet" type="text/css" href="style/css.css"/>
+	    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	    <script type="text/javascript" src="js/style.js"></script>
+	</head>
+	<body style="margin: 0 auto;">
+		<div id="container">
+			<header>
+			    <div class="header" style="left: 0px;">
+			        <div class="container">
+			            <a href=""><img src="images/fh-sjd.png" alt="" class="menu"></a>
+			            <span style="line-height: 52px;color: #FFFFFF;font-size: 16px;font-weight: 600;">提 现</span>
+			            <a href=""><img class="menu-r"></a>
+			        </div>
+			    </div>
+			    <div id="header"></div>
+			</header>
+			<section>
+				<div class="xiangMu">
+				    <div class="content">
+				    	<ul>
+				    		<li style="height: 40px;line-height: 40px;" class="clearFix">
+				    			<span class="fl">可用余额（金币）</span>
+				    			<span class=" AC fr">120万</span>
+				    		</li>
+				    		<li class="clearFix">
+				    			<span class="fl">手机号</span>
+				    			<span class="fr">13567892345</span>
+				    		</li>
+				    		<li class="clearFix" style="padding-right: 0;width: 90%;">
+				    			<span class="fl">支付宝账号</span>
+				    			<span class="fr"><a href="ZhiFuBao.html">13567892345 </a> <i class="JT">></i></span>
+				    		</li>
+				    		<li class="clearFix">
+				    			<span class="fl">提现金额</span>
+				    			<span style="display: inline-block;width: 95px;" class="fr">
+				    				<select name="carshlist" form="cashform">
+				    					<option id="op" value="10">-请选择金额-</option>
+										<option value="10">10元</option>
+										<option value="20">20元</option>
+										<option value="50">50元</option>
+										<option value="100">100元</option>
+										<option value="200">200元</option>
+										<option value="500">500元</option>
+									</select>
+				    			</span>
+				    		</li>
+				    	</ul>
+				    	<form action="" method="post" id="cashform">
+				    		<input type="submit" value="提 交"/>
+				    	</form>
+				    	<p class="tishi">
+				    		<i style="font-size: .9rem;">*</i>10元起提现，每天可提现两次。<br />
+							<i style="font-size: .9rem;">*</i>提现须知（一万金币=1元,提现金额不足时,将无法选择对应金额 (提现成功24小时之内到账)<br />
+							<i style="font-size: .9rem;">*</i>支付宝姓名和账号对应不上审核不通过，请仔细填写。
+				    	</p>
+				    </div>
+				</div>
+			</section>
+			<section>
+			    <div class="fhdb" id="fhdb" style="display: none;"><img src="images/hddb-sjd.png"></div>
+			</section>
+			<footer>
+			    <div id="footer-b"></div>
+			    <div class="footer" style="left: 0px;">
+			        <a href="index.html">
+			            <img src="images/sy-sjd.png" alt=""><br>
+			            首页
+			        </a>
+			        <a href="MissionHall.html" >
+			            <img src="images/dt-sjd.png" alt=""><br>
+			            任务
+			        </a>
+			        <a href="Income.html">
+			            <img src="images/syy.png" alt=""><br>
+			            收益
+			        </a>
+			        <a href="PersonalCenter.html">
+			            <img src="images/gr-sjd.png" alt=""><br>
+			            个人
+			        </a>
+			    </div>
+			</footer>
+		</div>
+	</body>
+</html>

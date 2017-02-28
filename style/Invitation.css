@@ -1,0 +1,221 @@
+@charset "utf-8";
+.Tlist{
+	width: 100%;
+	height: 25px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	border-bottom: 1px solid #E3E3E3;
+}
+.Tlist ul li{
+	width: 17%;
+	float: left;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	padding: 0 1%;
+}
+.Tlist ul li a{
+	color: #c1c1c1;
+}
+.AC{
+	color: #3aa8fd !important;
+}
+.ACR{
+	color: #fc3aa8 !important;
+}
+.AClist{
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.AClist li{
+	margin: 2%;
+	width: 96%;
+	border: 1px solid #EEEEEE;
+	border-radius: 5px;
+}
+.AClist li a{
+	padding: 2%;
+	display: block;
+}
+.AClist li a img{
+	width: 100%;
+	display: block;
+}
+.shadow{
+   -webkit-box-shadow: #C1C1C1 0px 1px 3px;
+   -moz-box-shadow: #C1C1C1 0px 1px 3px;
+   box-shadow: #EEEEEE 0px 3px 5px;
+}
+.ACinfo{
+	width: 100%;
+	height: auto;
+}
+.ACinfo span{
+	display: block;
+	margin: 1%;
+}
+.YaoQ{
+	width: 100%;
+	height: auto;
+	margin-bottom: 5px;
+}
+.lianjie {
+	padding: 12px 20px;
+}
+.lianjie input[type="text"]{
+	display: inline-block;
+	width: 66%;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #dfdfdf;
+	outline: none;
+	text-indent: 2px;
+	font-size: .8rem;
+	color: #333333;
+	overflow: hidden;
+}
+.lianjie input[type="button"]{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	width: 24%;
+	margin-left: 5%;
+	border: none;
+	outline: none;
+	font-size: 13px;
+	color: white;
+	background-color: #3aa9fd;
+	border-radius: 15px;
+}
+.lianjie p a{
+	display: block;
+	margin-top: 10px;
+}
+.lianjie p a img{
+	display: block;
+	width: 62%;
+}
+.JianX{
+	height: 5px;
+	width: 100%;
+	background-color: #f3f1f1;
+}
+.y1{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.y1 p{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	color: #FFFFFF;
+	background-color: #fc3aa8;
+	text-indent: 3px;
+}
+.y1 ul li{
+	width: 46%;
+	float: left;
+	margin: 2% 2% 0 2%;
+	color: #333;
+	font-size: .7rem;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.y1 ul li span{
+	color: #3aa9fd;
+}
+.y2{
+	width: 100%;
+	height: auto;
+}
+.y2 ul li{
+	float: left;
+	margin: 2%;
+	width: 20%;
+	border: 1px solid #888888;
+	color: #888888;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 5px;
+	font-size: .7rem;
+}
+.y2 table{
+	width: 100%;
+	height: auto;
+}
+.y2 table th{
+	width: 25%;
+	background-color: #fc3aa8;
+	height: 25px;
+	font-size: .7rem;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+.y2 table td{
+	border: 1px solid #C1C1C1;
+	height: 25px;
+	text-align: center;
+	font-size: .7rem;
+	color: #333333;
+}
+.change{
+	color: #fc3aa8 !important;
+	border: 1px solid #fc3aa8 !important;
+}
+/*邀请方法*/
+.shadow textarea{
+	margin: 2%;
+	width: 96%;
+	height: auto;
+	font-size: .8rem;
+	color: #333333;
+	border: none;
+	outline: none;
+	resize: none;
+	height: 60px;
+}
+.p-red{
+	margin: 2%;
+	width: 96%;
+	height: 30px;
+	line-height: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: .8rem;
+	background-color: #fd3aa9;
+	border-radius: 5px;
+	display: block;
+}
+/*邀请规则*/
+.guize{
+	width: 96%;
+	height: auto;
+	overflow: hidden;
+	padding: 2%;
+}
+.guize span{
+	display: block;
+	border-bottom: 2px solid #fc3aa8;
+	height: 25px;
+	line-height: 25px;
+	color: #333333;
+	font-size: .9rem;
+}
+.guize p{
+	font-size: .8rem;
+	color: #5c5c5c;
+	line-height: 1.2rem;
+	margin-top: .3rem;
+}
+.guize p img{
+	width: 100%;
+}
+
+
+
+

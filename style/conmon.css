@@ -1,0 +1,166 @@
+@charset "utf-8";
+/*************************/
+* { margin: 0px; padding: 0px;  }
+body,input {font-family:"微软雅黑";color: #000000; }
+@media only screen and (max-width:310px) and (min-width:300px) {
+body { font-size: 10px }
+}
+@media only screen and (max-width:320px) and (min-width:310px) {
+body { font-size: 10px }
+}
+@media only screen and (max-width:360px) and (min-width:320px) {
+body { font-size: 13px }
+}
+@media only screen and (max-width:360px) and (min-width:350px) {
+body { font-size: 14px }
+}
+@media only screen and (max-width:380px) and (min-width:361px) {
+body { font-size: 14px;}
+}
+@media only screen and (max-width:400px) and (min-width:376px) {
+body { font-size: 15px;}
+}
+@media only screen and (max-width:480px) and (min-width:380px) {
+body { font-size: 16px }
+}
+@media only screen and (max-width:480px) and (min-width:470px) {
+body { font-size: 16px }
+}
+@media only screen and (max-width:560px) and (min-width:480px) {
+body { font-size: 18px }
+}
+@media only screen and (max-width:570px) and (min-width:560px) {
+body { font-size: 18px }
+}
+@media only screen and (max-width:640px) and (min-width:570px) {
+body { font-size: 20px }
+}
+@media only screen and (max-width:640px) and (min-width:630px) {
+body { font-size: 20px }
+}
+@media only screen and (max-width:1920px) and (min-width:640px) {
+body { font-size: 22px }
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, select, code {margin: 0px;padding: 0px;}
+ul li {list-style-type: none;  }
+hr{border: none}
+a {outline: none;color: #000000;text-decoration: none;}
+section, dl, dd, ul {overflow: hidden;}
+body{min-width:300px;max-width:640px;}
+img{border:none}
+input:focus {
+    outline:none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+i{font-style: normal;}
+input[type="button"], input[type="submit"], input[type="reset"] {
+
+    -webkit-appearance: none;
+
+}
+textarea {  -webkit-appearance: none;}
+option,select{-webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none}
+button {
+    -webkit-appearance: none;
+}
+.fl{float: left;}
+.fr{float: right;}
+.clearFix:after { display:block; overflow:hidden; content:".";visibilityprize:hidden; clear:both; height:0; line-height:0; }
+.container{width:92%;;height: auto;margin: 0px 4%;display: inline-block}
+/*left-导航*/
+.mj{;width: 100%;float: left;display:block;text-align: center;height: 68px}
+.mj img{width: 100%;display: inline-block;vertical-align: middle;height: 68px;}
+.daohang{height: 100%;width: 100%;margin-top: 68px;;overflow: scroll;background: url("../images/mj-d-l.jpg") no-repeat top center;background-size: 100% 100%}
+.left{height: auto;margin-bottom: 25px}
+.left li{;height: 53px;border-bottom: 1px solid #ff7b86;letter-spacing: 0.5px;text-align: left;padding-left:26px;font-size: 15px;font-family: "微软雅黑", Regular;color: #ffffff;line-height:54px}
+.left li img{float: right;margin-right:24px;margin-top: 20px;width: 9px;}
+.left li:hover{background-color: #ffadb4;}
+.new{background-color: #ffadb4}
+#menu[class*='qwwq']{width:66%}
+#container[class*='qwwq']{left:66%;}
+#menu{width:0px;background-color: #e70014;position: fixed;z-index: 20000;bottom:0;left: 0;top: 0;height: 100%}
+#container{width: 100%;left:0px;position: relative;}
+
+.header{width: 100%;height: 52px;background-color: #3aa9fd;position: fixed;top: 0px;left: 0px;;z-index: 30000}
+.menu{float: left;width: 25px;margin-top: 11px}
+.menu-r{float: right;width: 25px;margin-top: 11px}
+.t-input{border: 0px;width: 100%;color:#ccc;font-size: 13px;line-height: 32px;font-family: "微软雅黑", Regular;;height: 32px;border-radius: 6px;-moz-border-radius: 6px;-webkit-border-radius:6px;vertical-align: middle;background:#ffffff url("../images/ss.png") no-repeat 5px;background-size: 16px 16px;text-indent: 26px;letter-spacing: 0.5px}
+.header .container{text-align: center}
+#header{width: 100%;height: 52px;}
+
+.banner{width: 100%;max-height: 234px; overflow: hidden;  position: relative}
+.banner .bxslider li img{width: 100%;height: auto;display: inline-block;vertical-align:middle}
+.banner .bxslider li{display: inline-block;float:right;width: 100%}
+.acz{width: 100%;height: auto}
+.banner .bx-controls{position: absolute;bottom:7px;text-align: center;width: 100%}
+.banner .bx-pager{display: inline-block}
+.banner .bx-pager-item{display: inline-block;margin-left:8px;}
+.banner .bx-pager-link{font-size: 0px;width: 7px;height: 7px;display: inline-block;background-color: #ffffff;opacity: 0.8;border-radius:9px}
+.banner .active{background-color: #3aa9fd;opacity: 1}
+.ptgg{width: 100%;height: 25px;line-height: 25px; border-bottom: 1px solid #ececec;overflow: hidden;}
+.qll-s{width: 100%;height:180px;}
+.qll-s .container a{width: 25%;float: left;display: inline-block;text-align: center;height: 85px;color: #666666;font-size:14px}
+.qll-s .container a img{width:48px;height: 48px;vertical-align: middle;margin:15px 0px 5px 0px}
+.ggslider{display: inline-block;color: #fd3aa9;font-size: 13px;}
+.jquwe{width: 100%;height: 12px;background-color: #eeeeee}
+.con{width: 100%;height: 34px;line-height: 34px;color: #333333;text-align: left;border-left:5px solid #fc3aa8;display: inline-block}
+.con span{color: #cccccc;font-size: 14px;float: right;}
+.rmtj{margin: 0px 5%;display: inline-block;height: 151px;border-top: 1px solid #ededed;border-bottom: 1px solid #ededed;margin-bottom: 23px;}
+.rmtj li{;float: left;display: inline-block;border-right: 1px solid #ededed;height: 100%}
+.rmtj li a{width:30%; float:left; display:inline-block; margin-right:1%}
+
+.rmtj li a img{width: 100%;margin-top: 10px;height: 91px}
+
+.gg{width: 100%;background-color: #eeeeee;display: inline-block}
+.gg .conake{width: 94%;margin: 7px 3%;}
+.gg .conake img{width: 100%;vertical-align: middle}
+
+/*footer*/
+#footer-b{width: 100%;height: 57px;}
+.footer{ box-shadow: 0px -1px 3px #C5C5C5; width: 100%;height: 58px;background-color: #FFFFFF;position: fixed;z-index:20000;bottom: 0px;left: 0px;border-top: 1px solid #ededed}
+.footer a{width:25%;float: left;display: inline-block;font-size: 12px;text-align: center;color: #b9b9b9}
+.footer a img{width: 25px;height: 25px;vertical-align: middle;margin: 7px 0px 4px 0px;}
+#footer{color: #47a5ed;}
+
+.fhdb{position: fixed;display: none;right: 15px;bottom: 75px;z-index: 2500;}
+.fhdb img{width: 48px;height: 48px;vertical-align: middle;}
+.dbfl{position: fixed;z-index: 19999;top:52px;left: 0px;width: 100%;height: 100%;display: none;overflow: scroll;background-color: #ffffff}
+.njasd{width: 105px;height: 100%;;float: left;overflow: scroll;display: inline-block;background-color: #eeeeee;}
+.njasd ul{margin-bottom: 110px;}
+.njasd ul li{display: inline-block;;float: left;width:104px;height: 54px;text-align: center;font-size: 14px;color: #333333;line-height: 54px;border-right: 1px solid #dedddc;border-top: 1px solid #dedddc}
+.dbsad{background-color: #ffffff!important;color: #e70014!important;border-left: 3px solid #e70014;}
+.kqiwe{position: absolute;top: 0px;left:122px;height: 100%;overflow: scroll}
+.jquwop a{width:78px;display: inline-block;color: #999999;float: left;text-align: center;line-height: 38px;margin-right:8px;margin-bottom: 18px;height: 38px;background-color: #ffffff;border: 1px solid #e6e6e6;border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px}
+.jquwia{width: 100%;display: inline-block;text-align: left;height: 55px;font-size: 18px; color:#e70014!important;}
+.jquwop{;display: inline-block;margin-bottom: 80px}
+.action{display: none;}
+
+.XMlist{width: 100%;height: auto;background-color: #FFFFFF;position: relative;}
+.XMlist li{ padding: 15px; width: 100%;display:block;border-bottom: 1px solid #d7d7d7;}
+.XMlist li a img{width: 33%;max-height: 140px;display: block;float: left;}
+.XMlist a{background-color: #ffffff}
+.XMlist .fl-n{float: left; width: 50%;margin-left: 2%;margin-top: -18px;display: inline-block;text-align: left;color: #333333;overflow: hidden}
+.XMlist .fl-w{float: right;  width: 9%;height: 100%;margin-right: 3%; display: inline-block;text-align: left;}
+.XMlist .fl-w img{margin-top: 50%;}
+.XMlist .fl-n h4{color: #3aa9fd;display: inline-block;font-weight: 600; white-space: nowrap;overflow: hidden;width:100% ;}
+.XMlist .fl-n span{color: #fe0000;}
+
+.AC{
+	color: #3aa8fd !important;
+}
+.JT{
+	color:  #b9b9b9;
+	font-family: '黑体';
+}
+.ckyq{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	font-size: .9rem;
+	text-align: center;
+}

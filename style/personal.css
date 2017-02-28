@@ -1,0 +1,259 @@
+@charset "utf-8";
+/*个人资料*/
+.content{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.content ul li{
+	margin: 0 2%;
+	width: 86%;
+	height: 40px;
+	line-height: 40px;
+	color: #5C5C5C;
+	border-bottom:  1px solid #e3e2e2;
+	padding: 0 5%;
+	font-size: .9rem;
+}
+.content ul li:nth-child(1){
+	height: 60px;
+	line-height: 60px;
+}
+.content ul li span a{
+	color: #5C5C5C;
+}
+.content ul li:nth-child(1) a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+}
+.content ul li:nth-child(1) a img{
+	display: block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	padding: 7px;
+}
+/*提现*/
+.content ul li select{
+	display: inline-block;
+	height: 39px;
+	line-height: 40px;
+	width: 100%;
+	text-align: center;
+	color: #3aa9fd;
+	border: none;
+	outline: none;
+	font-size: .9rem;
+	
+	appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+
+  /*在选择框的最右侧中间显示小箭头图片*/
+  background: url(../images/sjx-sjd.png) no-repeat scroll right center transparent;
+
+
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 10px;
+}
+.content ul li select option{
+	border: none;
+	outline: none;
+	font-size: 14px;
+}
+.content input[type="submit"]{
+	height: 37px;
+	width: 92%;
+	margin: 3%;
+	border-radius: 24px;
+	box-shadow: 0px 3px 5px #b4c5d0;
+	background-color: #56b5fd;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+	color: #FFFFFF;
+	font-size: 1rem;
+}
+.tishi{
+	font-size: .7rem;
+	color: #FD3AA9;
+	padding:2% 5%;
+	width: 90%;
+	line-height: 1.2rem;
+}
+/*个人中心*/
+.head{
+	height: 120px;
+	width: 100%;
+	background-color: #3aa9fd;
+	text-align: center;
+}
+.head .h1{
+	width: 100%;
+	height: 75px;
+	padding-top: 20px;
+}
+.head .h1 img{
+	border-radius: 50%;
+	width: 65px;
+	height: 65px;
+	display: block;
+	margin:  0 auto;
+}
+.head .h2{
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: .9rem;
+}
+.head .h2 span{
+	display: inline-block;
+	margin-left: 16%;
+}
+.head .h2 span a{
+	color: #FFFFFF;
+}
+.head .h2 .qd{
+	display: inline-block;
+	float: right;
+	width: 40px;
+	height: 18px;
+	line-height: 18px;
+	border-radius: 10px;
+	border:  solid 1px #FFFFFF;
+	color: #FFFFFF;
+	font-size: .8rem;
+	margin-right: 5%;
+}
+.pc-c{
+	width: 100%;
+	background-color: #FFFFFF;
+	box-shadow:  0px 2px 2px #d0cfcf;
+}
+.pc-c ul a{
+	display: block;
+	width: 100%;
+}
+.pc-c ul a li{
+	margin: 0 2%;
+	width: 86%;
+	height: 35px;
+	line-height: 35px;
+	color: #5C5C5C;
+	border-bottom:  1px solid #e3e2e2;
+	padding: 0 5%;
+	font-size: .9rem;
+}
+.pc-c ul a li span img{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right:10px ;
+}
+.bg-s{
+	width: 100%;
+	height: 5px;
+	background-color: #f0efef;
+}
+
+/*重置密码*/
+.form-rc{
+	width: 100%;
+	height: auto;
+}
+.form-rc input{
+	margin-top: 2px;
+	width: 100%;
+	padding-left: 12%;
+	border-top: solid 1px #e4e5e2;
+	border-bottom: solid 1px #e4e5e2;
+	border-left:none ;
+	height: 37px;
+	line-height: 37px;
+	font-size: .9rem;
+	outline: none;
+	color: #5C5C5C;
+}
+.form-rc .shouji{
+	background: url(../images/zc/sj-sjd.png) no-repeat;
+	background-position: 3% center;
+	background-size: 20px 25px;
+}
+.form-rc input[type="password"]{
+	background: url(../images/zc/mm-sjd.png) no-repeat;
+	background-position: 3% center;
+	background-size: 20px 25px;
+}
+.form-rc input[type="submit"]{
+	width: 92%;
+	margin: 3%;
+	border-radius: 24px;
+	box-shadow: 0px 3px 5px #b4c5d0;
+	background-color: #56b5fd;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+	color: #FFFFFF;
+	font-size: 1rem;
+}
+.form-rc input[type="button"]{
+	border:none;
+	background-color: #3aa9fd;
+	box-shadow: 0px 3px 5px #b4c5d0;
+	margin-left: 8%; 
+	width: 36%; 
+	color: #FFFFFF;
+	padding: 0;
+	border-radius: 4px;
+	text-align: center;
+}
+.yzm{
+	display: inline-block;
+	border:none;
+	margin-left: 8%; 
+	width: 36%; 
+	border-radius: 4px;
+	vertical-align: middle;
+	height: 37px;
+}
+.form-rc label{
+	display: inline-block;
+	width: 300px;
+	height: 20px;
+	color: red;
+	line-height: 20px;
+	font-size: .7rem;
+	text-indent: 10px;
+}
+.YZM{
+	background: url(../images/zc/yzm-sjd.png) no-repeat;
+	background-position: 6% center;
+	background-size: 25px 25px;
+}
+.sjYZM{
+	background: url(../images/zc/sjyzm-sjd.png) no-repeat;
+	background-position: 6% center;
+	background-size: 25px 25px;
+}
+/*注册*/
+.zhuce{
+	width: 100%;
+	text-align: center;
+	font-size: .7rem;
+	color: #5C5C5C;
+}
+.zhuce img{
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	display: inline-block;
+}
+/*绑定支付宝*/
+.zhifubao{
+	background: url(../images/zc/zfb-sjd.png) no-repeat;
+	background-position: 3% center;
+	background-size: 25px 25px;
+}

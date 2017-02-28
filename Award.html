@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>钱来了 触屏版</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	    <meta content="yes" name="apple-mobile-web-app-capable">
+	    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+	    <meta content="telephone=no" name="format-detection">
+	    <meta name="Keywords" content="钱来了">
+	    <meta name="Description" content="钱来了">
+	    <link rel="stylesheet" href="style/conmon.css">
+	    <link rel="stylesheet" type="text/css" href="style/demo.css"/>
+	    <link rel="stylesheet" type="text/css" href="style/hongbao.css"/>
+	    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	    <script src="js/jquery.bxslider.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script type="text/javascript" src="js/style.js"></script>
+	</head>
+	<body style="margin: 0 auto;">
+		<div id="container">
+			<header>
+			    <div class="header" style="left: 0px;">
+			        <div class="container">
+			            <a href=""><img src="images/fh-sjd.png" alt="" class="menu"></a>
+			            <span style="line-height: 52px;color: #FFFFFF;font-size: 16px;font-weight: 600;">转盘抽奖</span>
+			            <a href="News.html"><img src="images/xxw-sjd.png" alt="" class="menu-r"></a>
+			        </div>
+			    </div>
+			    <div id="header"></div>
+			</header>
+			<section>
+				<img class="zpbg" src="images/zpbj-sjd.png"/>
+				<div class="mingdan">
+					<ul class="bdslider">
+						<li>恭喜会员 <span>12**45</span>抽取了<span>七等奖</span>,获得了<span style="color: #f3018f;">5000金币</span></li>
+						<li>恭喜会员 <span>22**45</span>抽取了<span>七等奖</span>,获得了<span style="color: #f3018f;">5000金币</span></li>
+						<li>恭喜会员 <span>32**45</span>抽取了<span>七等奖</span>,获得了<span style="color: #f3018f;">5000金币</span></li>
+						<li>恭喜会员 <span>42**45</span>抽取了<span>七等奖</span>,获得了<span style="color: #f3018f;">5000金币</span></li>
+						<li>恭喜会员 <span>52**45</span>抽取了<span>七等奖</span>,获得了<span style="color: #f3018f;">5000金币</span></li>
+					</ul>						
+				</div>
+				<script>
+					$(document).ready(function () {
+				        $('.bdslider').bxSlider({
+				        	 minSlides: 1,
+ 							 maxSlides: 1,
+				             mode: 'vertical',
+				            speed: '700',
+				            infiniteLoop: 'false',
+				            auto: 'false',
+				//            captions: true,//自动控制
+				            pause: '3000',
+				            displaySlideQty: 1,//显示li的个数
+				            moveSlideQty: 1,
+				            captions: false,//**//自动控制
+            				controls: false, //隐藏左右按钮
+            				pager: false,
+				        });
+				    });
+				</script>
+				<div class="choujiang pointer"></div>
+				<div class="cishu">
+					剩余<span>1</span>次
+				</div>
+				<div class="xiangq clearFix">
+					<a class="fl" href="Award-Myaward.html">我的奖品</a>
+					<a class="fr" href="Award-Rule.html">游戏规则</a>
+				</div>
+				<div class="turntable-bg">
+			        <div class="pointer"><img src="images/zp-zx-sjd.png" alt="pointer"  style="cursor: pointer;"/></div>
+			        <div class="rotate" ><img id="rotate" src="images/zp-lp-sjd.png" alt="turntable"/></div>
+			   </div>
+			   <div class="theme-popover" style="display: none;width: 320px;height: 200px; margin: -90px 0 0 -160px;">
+			   		<p style="color: #333;    font-size: 1rem;line-height: 25px; position: absolute;width: 198px;height: 66px;display: block;top: 50px;left: 63px;text-align: center;">恭喜你中了七等奖获得了
+			   			<br /><span style="color: #fece01;">790金币</span></p>
+		            <a style="position: absolute;width: 94px;height: 19px;display: block;border: solid 1px red;top: 108px;left: 113px;" title="关闭" class="close">×</a>
+				    <img style="width: 320px;height: 200px;" src="images/zpbj-tc-sjd.png">
+				</div>
+				<div class="theme-popover-mask" style="display: none;"></div>
+			</section>
+			<section>
+			    <div class="fhdb" id="fhdb" style="display: none;"><img src="images/hddb-sjd.png"></div>
+			</section>
+			<footer>
+			    <div id="footer-b"></div>
+			    <div class="footer" style="left: 0px;">
+			        <a href="index.html">
+			            <img src="images/sy-sjd.png" alt=""><br>
+			            首页
+			        </a>
+			        <a href="MissionHall.html" >
+			            <img src="images/dt-sjd.png" alt=""><br>
+			            任务
+			        </a>
+			        <a href="Income.html">
+			            <img src="images/syy.png" alt=""><br>
+			            收益
+			        </a>
+			        <a href="PersonalCenter.html">
+			            <img src="images/gr-sjd.png" alt=""><br>
+			            个人
+			        </a>
+			    </div>
+			</footer>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/awardRotate.js"></script>
+    <script type="text/javascript" src="js/activity.js"></script>
+    <script type="text/javascript">
+    		jQuery(document).ready(function($) {		
+			$('.wei').click(function(){		
+				$('.theme-popover-mask').css("display","block");		
+				$('.theme-popover').css("display","block");
+			})
+			$('.close').click(function(){		
+				$('.theme-popover-mask').css("display","none");		
+				$('.theme-popover').css("display","none");			
+			})
+		})
+    </script>
+</html>

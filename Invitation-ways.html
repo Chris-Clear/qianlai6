@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>钱来了 触屏版</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	    <meta content="yes" name="apple-mobile-web-app-capable">
+	    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+	    <meta content="telephone=no" name="format-detection">
+	    <meta name="Keywords" content="钱来了">
+	    <meta name="Description" content="钱来了">
+	    <link rel="stylesheet" href="style/conmon.css">
+	    <link rel="stylesheet" type="text/css" href="style/Invitation.css"/>
+	    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	    <script type="text/javascript" src="js/style.js"></script>
+	</head>
+	<body style="margin: 0 auto;">
+		<div id="container">
+			<header>
+			    <div class="header" style="left: 0px;">
+			        <div class="container">
+			            <a href=""><img src="images/fh-sjd.png" alt="" class="menu"></a>
+			            <span style="line-height: 52px;color: #FFFFFF;font-size: 16px;font-weight: 600;">邀请好友</span>
+			            <a href="News.html"><img src="images/xxw-sjd.png" alt="" class="menu-r"></a>
+			        </div>
+			    </div>
+			    <div id="header"></div>
+			</header>
+			<section>			
+			    <div class="Tlist">
+			    	<ul>
+			    		<li style="width: 20%; color: #bdbcbc;"><a href="Invitation-reward.html">推广奖励</a></li>
+			    		<li style="width: 1%;color: #bdbcbc;">|</li>
+			    		<li style="width: 20%; color: #bdbcbc;"><a href="Invitation-ways.html" class="AC">推广方法</a></li>
+			    		<li style="width: 1%; color: #bdbcbc;">|</li>		    
+			    		<li style="width: 20%; color: #bdbcbc;"><a href="Invitation-rule.html">月榜规则</a></li>
+			    		<li style="width: 1%; color: #bdbcbc;">|</li>		    
+			    		<li style="width: 20%; color: #bdbcbc;"><a href="Invitation-record.html" >推广记录</a></li>
+			    	</ul>
+			    </div>
+			    <div class="YaoQ">
+			    	<div class="lianjie">
+			    		<p style="color: #3aa9fd;margin-bottom: 5px;">我的邀请链接：</p>
+			    		<input type="text" name="" id="lianjie" value="http://qianlai6.com" />
+			    		<input type="button" id="" value="复制链接" onClick="copyUrl1()"/>
+			    		<p><a href=""><img src="images/fenxiang_03.jpg"/></a></p>
+			    	</div>
+			    </div>
+			    <div class="JianX"></div>
+			    <ul  class="AClist">
+			    		<li class="shadow">
+			    			<textarea id="f1">我分手了，因为我女朋友和我说：抱着你的电脑和钱来了过一辈子去吧！到底发生了什么？快点进去看看吧!
+			    			</textarea>
+			    			<div class="p-red" onClick="copyUrl2()">
+			    				复 制 范 文
+			    			</div>
+			    		</li>
+			    		<li class="shadow">
+			    			<textarea id="f2">少年，听说你手速也很快？以前我只知道手速快除了伤身体就是浪费纸~现在才知道，在钱来了手速快的可以拿走iphone7。你还磨蹭什么？
+			    			</textarea>
+			    			<div class="p-red" onClick="copyUrl3()">
+			    				复 制 范 文
+			    			</div>
+			    		</li>
+			    		<li class="shadow">
+			    			<textarea id="f3">网赚平台那么多，不坑的有几家？中国好网赚，强烈推荐“钱来了”！！！网赚平台那么多，不坑的有几家？中国好网赚，强烈推荐“钱来了”！！！
+			    			</textarea>
+			    			<div class="p-red" onClick="copyUrl4()">
+			    				复 制 范 文
+			    			</div>
+			    		</li>
+			    		<li class="shadow">
+			    			<textarea id="f4">朋友，你还在为抢红包戳烂手机屏幕？你out了，最近有个站叫钱来了，体验了一下，奖励超高。广告体验秒赚25元，快来抢钱咧！
+			    			</textarea>
+			    			<div class="p-red" onClick="copyUrl5()">
+			    				复 制 范 文
+			    			</div>
+			    		</li>
+				    </ul>
+			</section>
+			<section>
+			    <div class="fhdb" id="fhdb" style="display: none;"><img src="images/hddb-sjd.png"></div>
+			</section>
+			<footer>
+			    <div id="footer-b"></div>
+			    <div class="footer" style="left: 0px;">
+			        <a href="index.html">
+			            <img src="images/sy-sjd.png" alt=""><br>
+			            首页
+			        </a>
+			        <a href="MissionHall.html" >
+			            <img src="images/dt-sjd.png" alt=""><br>
+			            任务
+			        </a>
+			        <a href="Income.html">
+			            <img src="images/syy.png" alt=""><br>
+			            收益
+			        </a>
+			        <a href="PersonalCenter.html">
+			            <img src="images/gr-sjd.png" alt=""><br>
+			            个人
+			        </a>
+			    </div>
+			</footer>
+		</div>
+	</body>
+	<script type="text/javascript">
+	//		复制粘贴
+		function copyUrl1() 
+			{ 
+			var Url2=document.getElementById("lianjie"); 
+			Url2.select(); // 选择对象 
+			document.execCommand("Copy"); // 执行浏览器复制命令 
+			alert("已复制好，可贴粘。"); 
+			} 
+		function copyUrl2() 
+			{ 
+			var Url2=document.getElementById("f1"); 
+			Url2.select(); // 选择对象 
+			document.execCommand("Copy"); // 执行浏览器复制命令 
+			alert("已复制好，可贴粘。"); 
+			} 
+		function copyUrl3() 
+			{ 
+			var Url2=document.getElementById("f2"); 
+			Url2.select(); // 选择对象 
+			document.execCommand("Copy"); // 执行浏览器复制命令 
+			alert("已复制好，可贴粘。"); 
+			} 
+		function copyUrl4() 
+			{ 
+			var Url2=document.getElementById("f3"); 
+			Url2.select(); // 选择对象 
+			document.execCommand("Copy"); // 执行浏览器复制命令 
+			alert("已复制好，可贴粘。"); 
+			} 
+		function copyUrl5() 
+			{ 
+			var Url2=document.getElementById("f4"); 
+			Url2.select(); // 选择对象 
+			document.execCommand("Copy"); // 执行浏览器复制命令 
+			alert("已复制好，可贴粘。"); 
+			} 
+	</script>
+</html>

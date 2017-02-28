@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>钱来了 触屏版</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	    <meta content="yes" name="apple-mobile-web-app-capable">
+	    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+	    <meta content="telephone=no" name="format-detection">
+	    <meta name="Keywords" content="钱来了">
+	    <meta name="Description" content="钱来了">
+	    <link rel="stylesheet" href="style/conmon.css">
+	    <link rel="stylesheet" type="text/css" href="style/hongbao.css"/>
+	    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	    <script src="js/jquery.bxslider.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script type="text/javascript" src="js/style.js"></script>
+	    <script type="text/javascript">
+			 $(document).ready(function () {
+		        $('.hbslider').bxSlider({
+		            mode: 'horizontal',
+		            speed: '1000',
+		            infiniteLoop: 'false',
+		            auto: 'false',
+		//            captions: true,//自动控制
+		            pause: '3500000',
+		            displaySlideQty: 1,//显示li的个数
+		            captions: false,//**//自动控制
+		            controls: false //隐藏左右按钮
+		            
+		        });
+		    });
+		    </script>
+	    <style type="text/css">
+	    	.hb1 ul li{
+	    		width: 70%;
+	    		float: left;
+	    		overflow: hidden;
+	    	}
+	    	.bx-controls{
+	    		display: none;
+	    	}
+	    	.hb2 p{
+	    		float: left;
+	    		font-size: .8rem;
+	    		color: #993300;
+	    		margin: 1%;
+	    		text-align: center;
+	    	}
+	    </style>
+	</head>
+	<body style="margin: 0 auto;">
+		<div id="container">
+			<header>
+			    <div class="header" style="left: 0px;">
+			        <div class="container">
+			            <a href=""><img src="images/fh-sjd.png" alt="" class="menu"></a>
+			            <span style="line-height: 52px;color: #FFFFFF;font-size: 16px;font-weight: 600;">红包大奖</span>
+			            <a href="News.html"><img src="images/xxw-sjd.png" alt="" class="menu-r"></a>
+			        </div>
+			    </div>
+			    <div id="header"></div>
+			</header>
+			<section>
+				<img class="BIMG" src="images/hb-bj-sjd.png"/>
+				<div style="position: absolute;top: 24%;left: 42%;">
+					<a href="HongB-rule.html" style="color: #ff526f;text-decoration: underline;">活动规则</a>
+				</div>
+				<div class="content" style="z-index: 9;">
+					<div style="padding: 12%;">
+						<div class="hb1">
+							<ul class="hbslider">
+								<li><img src="image/1.png"/></li>
+								<li><img src="image/3.png"/></li>
+								<li><img src="image/10.png"/></li>
+								<li><img src="image/30.png"/></li>
+								<li style="margin-right: 2%;"><img src="image/50.png"/></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="hb2 clearFix" style="width: 100%; position: absolute;top: 71%;">
+					<p style="width: 48%;">累计体验任务奖励：<span style="color: #ff3366;">15万</span></p>
+					<p style="cursor: pointer;width: 48%;">已领取红包奖励：<span style="color: #ff3366;" >0 </span></p>
+					<p class="wei" style="cursor: pointer;width: 34%;">未达到</p>
+				</div>
+				<div style="position: absolute;top: 48%;width: 100%;">
+					<img style="width: 100%;" src="images/jt.gif"/>
+				</div>
+				<div class="theme-popover" style="display: none;">
+		            <a style="position: absolute;width: 105px;height: 28px;display: block;border: solid 1px red;top: 230px;left: 85px;" title="关闭" class="close">×</a>
+		            <a style="position: absolute;left: 230px;top: -13px;font-size: 25px;" title="关闭" class="close">×</a>    
+				    <img src="image/1.png"/>
+				</div>
+				<div class="theme-popover-mask" style="display: none;"></div>
+				<!--未达到领取条件-->
+				<div class="themepopover">
+				    <a style="position: absolute; width: 125px;height: 28px;line-height: 28px;color: #FFFBD9;text-align: center; display: block; top: 145px;left: 136px;opacity: 1;" title="关闭" class="close">我知道了</a>
+				    <a href="MissionHall.html" style="position: absolute; width: 125px;height: 28px;line-height: 28px;color: #FFFBD9;text-align: center; display: block; top: 145px;left: 8px;" >去做任务</a>
+		            <a style="position: absolute;left: 240px;top: 2px;font-size: 25px;" title="关闭" class="close">×</a>
+		            <p style="position: absolute; width: 202px;height: 60px;text-align: left;color: #333; left: 38px;top: 67px;font-size: .9rem;">抱歉，您未达到领取红包的条件，请继续体验任务</p>
+				    <img src="images/wxtsk.png"/>
+				</div>
+			</section>
+			<section>
+			    <div class="fhdb" id="fhdb" style="display: none;"><img src="images/hddb-sjd.png"></div>
+			</section>
+			<footer>
+			    <div id="footer-b"></div>
+			    <div class="footer" style="left: 0px;">
+			        <a href="index.html">
+			            <img src="images/sy-sjd.png" alt=""><br>
+			            首页
+			        </a>
+			        <a href="MissionHall.html" >
+			            <img src="images/dt-sjd.png" alt=""><br>
+			            任务
+			        </a>
+			        <a href="Income.html">
+			            <img src="images/syy.png" alt=""><br>
+			            收益
+			        </a>
+			        <a href="PersonalCenter.html">
+			            <img src="images/gr-sjd.png" alt=""><br>
+			            个人
+			        </a>
+			    </div>
+			</footer>
+		</div>
+	</body>
+	<script type="text/javascript">
+		
+		$(".hb1 ul li").click(function(){
+			_index = $(this).index();//获取到第几个
+			HongBao();
+		})
+		function HongBao(){
+				var a = 'image/'+(_index)+'y.png'
+				$('.theme-popover-mask').css("display","block");		
+				$('.theme-popover').css("display","block");	
+				$('.theme-popover img').attr("src",a);
+			$('.close').click(function(){		
+				$('.theme-popover-mask').css("display","none");			
+				$('.theme-popover').css("display","none");	
+			})
+		}		
+		jQuery(document).ready(function($) {		
+			$('.wei').click(function(){		
+				$('.theme-popover-mask').css("display","block");		
+				$('.themepopover').css("display","block");
+			})
+			$('.close').click(function(){		
+				$('.theme-popover-mask').css("display","none");		
+				$('.themepopover').css("display","none");			
+			})
+		})
+	</script>
+</html>
